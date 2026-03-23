@@ -1,7 +1,7 @@
 # 🚀 Kubernetes Volumes Lab (Assignment 6)
 ## Production‑Style Storage: From Ephemeral to Persistent to Multi‑Volume Architecture
 
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](imgs/architecture.png)
 
 <p align="center">
   <b>Kubernetes Storage Evolution Lab</b>
@@ -80,9 +80,9 @@ Both share:
 - Deleting the Pod = data loss
 
 ### 📸 Screenshot 01
-![ S1 ](Screenshot_1.png)
-![ S1 ](Screenshot_1.2.png)
-![ S1 ](Screenshot_1.3.png)
+![ S1 ](imgs/Screenshot_1.png)
+![ S1 ](imgs/Screenshot_1.2.png)
+![ S1 ](imgs/Screenshot_1.3.png)
 
 
 ---
@@ -101,7 +101,7 @@ Then mounted it inside an nginx Pod.
 - Changes on node → reflect instantly inside Pod
 
 ### 📸 Screenshot 02
-![ S2 ](Screenshot_2.png)
+![ S2 ](imgs/Screenshot_2.png)
 
 ---
 
@@ -136,7 +136,7 @@ And bound it to `my-pv`.
 - Kubernetes handles binding automatically
 
 ### 📸 Screenshot 03
-![ S3 ](Screenshot_3.png)
+![ S3 ](imgs/Screenshot_3.png)
 
 ---
 
@@ -154,7 +154,7 @@ Steps:
 Data persisted successfully
 
 ### 📸 Screenshot 04
-![ S4 ](Screenshot_4.png)
+![ S4 ](imgs/Screenshot_4.png)
 
 ---
 
@@ -172,7 +172,7 @@ We created a Pod with **3 storage layers**:
 Real applications use **multiple storage types simultaneously**
 
 ### 📸 Screenshot 05
-![ S5 ](Screenshot_5.png)
+![ S5 ](imgs/Screenshot_5.png)
 
 ---
 
